@@ -1,0 +1,213 @@
+/*HEADERS AND FONTS SECTION*/
+
+h1 {
+	color: white;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+	font-size: 100px;
+	padding: 0px;
+	/*border-bottom: 1px solid white;*/
+}
+
+header {
+	background-color: black
+	opacity: 0.6;
+	padding: 0px;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 35px;
+
+}
+article{
+	/*border: solid 1px red;*/
+}
+
+/*BACKGROUND IMAGES AND SECTION FORMATS*/
+body {
+	color: white;
+	/*text-align: center;*/
+	/*background-image: url("images/treck.jpg")*/
+	/*background-color: #B6E1F0;*/
+	background-image: url("images/nyc1.jpg");
+}
+
+section {
+	background: rgb(232,232,232, 0.6);
+	margin:0 auto;
+	width: 100%;
+}
+
+/*EDITS IMAGES*/
+
+nav img{
+	width: 50px;
+	height: 50px;
+	float: right;
+	clear: both;
+
+}
+div img{
+	width: 30%;
+	display: inline-block;
+	margin: 0, auto;
+}
+
+/*CLASSES*/
+.foot{
+	font-family: 'Playfair Display', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+
+.about{
+	text-align: center;
+	padding: 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.gallerypics{
+	text-align: center;
+}
+
+ .paddingbottom{
+ 	padding-bottom: 15px;
+ }
+.bigger{
+	font-size: 25px;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+/*	border: solid 1px blue;*/
+}
+
+.fixed {
+  position: fixed;
+  right: 10px;
+  top: 35%;
+}
+
+/*CLASSES FOR FLEX CARDS AT THE BOTTOM OF HTML*/
+.flexbox{
+	display:flex;
+	justify-content: center;
+}
+
+.card{
+	height: 95%;
+	width: 90%;
+	/*border: solid 1px yellow;*/
+	margin: 10px;
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.card:hover {
+	background-color: rgb(164, 91, 255);
+	height: 95%;
+	width: 90%;
+	/*border: solid 1px yellow;*/
+	margin: 10px;
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.content1{
+	background-image: url('images/bwuno.jpg');
+	flex-grow:3;
+}
+
+.content1: hover{
+	flex-grow:3;
+	background-color: rgb(164, 91, 255);
+	background-image: url('images/bwuno.jpg');
+
+}
+
+.content2{
+	background-image: url('images/bwdos.jpg');
+	flex-grow:3;
+}
+
+.content3{
+	background-image: url('images/bwtres.jpg');
+	flex-grow:3;
+}
+
+.footer{
+	background: rgb(91, 138, 255, 0.5);
+	flex-grow:0;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 25px;
+}
+
+.cardsecheight{
+	height: 450px;
+}
+
+/*FIXED BACK TO TOP BUTTON AT BOTTOM OF PAGE*/
+.btt{
+	width:50px;
+	position: fixed;
+	right: 10px;
+	bottom: 65px;
+}
+.table{
+	display: flex;
+	justify-content: center;
+}
+
+.lorip{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+
+.flextext{
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 65px;
+}
+
+.nosectionbg{
+	background: rgb(0,0,0,0)
+}
+.middlebody{
+	margin: 0, auto;
+}
+
+/*CHANGES BG COLOR OF BOOTSTRAP GRID BOXES*/
+.gridbg1{
+	background-color: rgb(91, 138, 255, 0.65);
+}
+
+.gridbg2{
+	background-color: rgb(91, 255, 230, 0.65);
+}
+ .gridbg3{
+ 	background-color: rgb(164, 91, 255, 0.65);
+ }
+
+/*ID's*/
+
+#containeryt{
+	display:flex;
+	/*default settings*/
+/*	justify-content: flex-start;
+	align-items: flex-start;
+	flex-direction: row;
+	flex-wrap: nowrap;*/
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
